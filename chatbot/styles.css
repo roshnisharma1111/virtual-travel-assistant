@@ -1,0 +1,74 @@
+/* General styles */
+body {
+  font-family: 'Arial', sans-serif;
+            background-color: #f0f0f0;
+            background-image: url('rrr.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-attachment: fixed;
+            color: black;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            overflow: hidden;
+            
+            transition: opacity 1s ease-in-out; /* Smooth transition for opacity */
+}
+
+/* Optional: Preload the image to prevent blinking */
+
+
+
+header {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  
+  padding: 1em;
+  text-align: center;
+  font-size: 1.5em;
+ 
+}
+
+
+/* Header styles */
+
+
+header .Location{
+    background-color: black;
+    color: rgb(76, 187, 115);
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+
+/* Footer styles */
+footer {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 1em;
+    background-color:  #d8895b;
+    color: #000000;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+  #chatbot-container {
+    position: fixed;
+    bottom: 20px; /* Adjust the distance from the bottom as needed */
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1000; /* Ensure it's on top of other elements */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chatbase-chatbot-icon {
+    width: 80px; /* Adjust size as needed */
+    height: 80px; /* Adjust size as needed */
+    cursor: pointer;
+}
+
+
+
